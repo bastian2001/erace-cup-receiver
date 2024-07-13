@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.8636,
+          "width": 0.8636
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -480,7 +480,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Exports/",
-      "pos_files": "",
+      "pos_files": "Exports/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -590,7 +590,7 @@
   "sheets": [
     [
       "6f78400b-c6a5-4e89-99c3-5503b1f88e0b",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {}
