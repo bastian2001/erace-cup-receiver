@@ -1,0 +1,122 @@
+(footprint "solder bridge"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c86d1fd-34f7-437b-ba91-653bb844b83c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "solder bridge"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "872af369-fed7-4de6-8bdb-eccf6b4ff36f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c966dd3d-eaa7-456c-986e-1344e0a628af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2bc52bb-863e-4db8-93f3-d5306c981aef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0a8c2c-5c4f-466b-a881-d8df80de7bf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d15f7b3-9d56-468a-9aef-9a702e9f5966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.45 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.35) (xy 0.3 -0.35) (xy 0.48 0) (xy 0.3 0.35) (xy -0.3 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "70d70bf7-173d-4756-a543-dd769bd1b337")
+	)
+	(pad "2" smd custom
+		(at 0.525 0)
+		(size 0.45 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.475 -0.35) (xy -0.275 0) (xy -0.475 0.35) (xy 0.225 0.35) (xy 0.225 -0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "766a43e9-1cac-4014-b388-ba3b18747756")
+	)
+)
